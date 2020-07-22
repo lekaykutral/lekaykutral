@@ -14,7 +14,7 @@
 				var password = document.getElementById("password").value;
 				var message = document.getElementById("message").value;
 				var out = document.getElementById("output");
-				encrypted = encrypt(message, password).toString();
+				encrypted = encrypt(message, password);
 				out.innerHTML = encrypted;
 			}
 		</script>
