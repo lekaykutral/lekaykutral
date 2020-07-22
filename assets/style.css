@@ -1,0 +1,40 @@
+body {
+	min-height: 750px;
+	heihgt: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+	background-color: #01215e;
+}
+#background {
+	padding: 110px 5% 10px;
+}
+#header {
+	font-size: 60px;
+	color: white;
+	float: left;
+}
+header {
+	vertical-align: middle;
+	position: fixed;
+	height:100px;
+	line-height: 100px;
+	width: 100%;
+	background-color: #e76c33;
+}
+.enlace {
+	color: #01215e;
+	background-color: white;
+	text-decorations: none;
+}
+.column {
+	font-size: 20px;
+	color: #01215e;
+	border-radius: 25px;
+	max-width: 100%;
+	background-color: #e76c33;
+	min-height: 750px;
+	height: 100%;
+	padding: 10px 30px;
+	text-align: justify;
+}
