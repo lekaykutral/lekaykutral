@@ -14,6 +14,17 @@ body {
 	color: white;
 	float: left;
 }
+#column {
+	font-size: 20px;
+	color: #01215e;
+	border-radius: 25px;
+	max-width: 100%;
+	background-color: #e76c33;
+	min-height: 750px;
+	height: 100%;
+	padding: 10px 30px;
+	text-align: justify;
+}
 header {
 	vertical-align: middle;
 	position: fixed;
@@ -26,15 +37,4 @@ header {
 	color: #01215e;
 	background-color: white;
 	text-decorations: none;
-}
-.column {
-	font-size: 20px;
-	color: #01215e;
-	border-radius: 25px;
-	max-width: 100%;
-	background-color: #e76c33;
-	min-height: 750px;
-	height: 100%;
-	padding: 10px 30px;
-	text-align: justify;
 }
