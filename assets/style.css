@@ -6,13 +6,22 @@ body {
 	margin: 0 auto;
 	background-color: #01215e;
 }
+.link {
+	text-decoration: none;
+	background-color: white;
+	color: #01215e;
+}
 #background {
 	padding: 110px 5% 10px;
 }
-#header {
+.header {
 	font-size: 60px;
 	color: white;
 	float: left;
+}
+#insignia {
+	height: 100px;
+	width: 100px;
 }
 #main-column {
 	font-size: 20px;
