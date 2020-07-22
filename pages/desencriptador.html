@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+	<title> Desencriptador Lëkaykutral </title>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="/lekaykutral/assets/style.css">
+		<link rel="stylesheet" type="text/css" href="/lekaykutral/assets/boxes.css">
+		<link rel="icon" type="image/png" href="/lekaykutral/assets/insignia.png">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+		<script src="/lekaykutral/scripts/cripto.js"></script>
+		<script>
+			function callDecrypt(){
+				var password = document.getElementById("password").value;
+				var message = document.getElementById("message").value;
+				var out = document.getElementById("output");
+				decrypted = decrypt(message, password);
+				out.innerHTML = decrypted;
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<a class="header" href="/lekaykutral/">
+				<img src="/lekaykutral/assets/insignia.png" alt="insignia" class="header" id="insignia">
+				<div class="header"> Lëkaykutral</div>
+			</a>
+		</header>
+		
+		<div id="background">
+			<div class="column" id="main-column">
+				<h1> Desencriptador </h1>
+				<p><a class="link" href="/lekaykutral/pages/encriptador.html"> Encriptador </a></p>
+				Texto encriptado:<br>
+				<textarea class="big-box2" id="message"></textarea><br>
+				Contraseña : <br>
+				<input type="text" class="passwordBox" id="password" value="Contraseña">
+				<button onclick="callDecrypt()"> Desencriptar </button><br>
+				Texto desencriptado:<br>
+				<textarea class="big-box1" id="output" readonly></textarea><br>
+			</div>
+		</div>
+	</body>
+</html>
